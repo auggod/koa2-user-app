@@ -1,0 +1,21 @@
+{
+  "name": "koa2-users-app",
+  "version": "1.0.0",
+  "description": "Simple koa@2 app using monk",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "start": "node index.js"
+  },
+  "author": "Augustin Godiscal <dev@auggod.io>",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "dotenv": "^4.0.0",
+    "koa": "^2.0.0-alpha.8",
+    "koa-bodyparser": "^3.2.0",
+    "koa-router": "^7.0.1",
+    "mocha": "^3.2.0",
+    "monk": "^4.0.0"
+  }
+}
